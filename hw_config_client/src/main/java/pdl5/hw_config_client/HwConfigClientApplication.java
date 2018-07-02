@@ -1,0 +1,12 @@
+package pdl5.hw_config_client;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HwConfigClientApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(HwConfigClientApplication.class, args);
+    }
+}
