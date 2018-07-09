@@ -9,8 +9,11 @@ public class HelloController {
     @Value("${hello}")
     private String hello;
 
+    @Value("${server1}")
+    private String server1;
+
     @RequestMapping("/hello")
     public String from(){
-        return this.hello;
+        return this.hello + '\n' + this.server1;
     }
 }
